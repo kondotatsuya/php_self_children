@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.content{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.title_img{
+  margin:0 auto;
+  width: 80%;
+}
+.form{
+  margin:0 auto;
+  padding: 50px;
+  text-align: center;
+  width:60%;
+  border: 3px solid green;
+  border-radius: 40px;
+}
+.form_title{
+  border: 3px solid green;
+  border-radius: 20px;
+  padding: 0.5em;
+  width:70%;
+  height: 50px;
+  font-size: 14px;
+}
+.form_button{
+  width: 150px;
+  height: 40px;
+  border-radius: 19px;
+  background-clip: padding-box;
+  background-color: #63b560;
+  border:none;
+  color: #fff;
+  font-weight: bold;
+	font-size: 14px;
+}
+.textarea{
+  line-height: 1.2;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: 3px solid green;
+  width: 100%;
+}
+.trouble_all{
+  width: 60%;
+  margin:0 auto;
+  padding: 50px;
+  border: 3px solid green;
+  border-radius: 40px;
+}
+.trouble_all ul{
+  padding-top: 30px;
+}
+.trouble_all li{
+  text-align: center;
+  margin: 20px;
+  font-size: 22px;
+  position: relative;
+}
+.error{
+  text-align: center;
+  color: red;
+
+}
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  .form{
+    width:80%;
+  }
+  .trouble_all{
+    width:80%;
+  }
+
+    .trouble_all li{
+      text-align: center;
+      margin: 20px;
+      font-size: 16px;
+      position: relative;
+    }
+}
+@media screen and (max-width: 413px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  .content{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  .form{
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;
+    width:80%;
+    border: 3px solid green;
+    border-radius: 40px;
+  }
+
+  .form_title{
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 0.5em;
+    width:70%;
+    height: 30px;
+    font-size: 10px;
+  }
+  .textarea{
+    line-height: 1.2;
+    padding: 0.5em;
+    border-radius: 20px;
+    border: 3px solid green;
+    width: 100%;
+    font-size:10px;
+  }
+
+  .trouble_all{
+    width: 80%;
+    margin:0 auto;
+    padding: 20px;
+    border: 3px solid green;
+    border-radius: 40px;
+  }
+
+  .trouble_all li{
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    position: relative;
+  }
+}

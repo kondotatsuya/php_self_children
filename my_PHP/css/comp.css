@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+#wrapper{
+
+		min-height:87vh;
+		margin: 0 auto;
+		width:100%;
+		padding-top:40px;
+		background-image: url("../img/mypage_bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.comp_img{
+	margin: 130px auto;
+}
+.to_img{
+	width:14%;
+	margin: 0 auto;
+	text-align: center;
+}
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	.to_img{
+		width: 30%;
+	}
+}
+@media screen and (max-width: 414px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	.comp_img{
+		width:90%;
+		margin:50px auto;
+	}
+	.to_img{
+		width: 30%;
+	}
+}

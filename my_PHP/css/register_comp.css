@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+#wrapper{
+	width: 100%;
+	min-height: 81vh;
+	background-image: url("../img/bg1_a.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:rgba(255,255,255,0.4);
+	background-blend-mode:lighten;
+	position: relative;
+	padding-top: 200px
+}
+.comp_img{
+	margin: 0 auto;
+	width: 50%;
+}
+.to_img{
+	width:25%;
+	padding-top:50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	#wrapper {
+		background-color: #ddf6dd; /*緑色*/
+		width:100%;
+		background-image:none;
+		min-height: 83vh;
+	}
+	.comp_img{
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.to_img{
+		width:45%;
+		padding-top:50px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+}

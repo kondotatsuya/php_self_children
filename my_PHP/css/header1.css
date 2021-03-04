@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.site-header {
+  position: relative;
+  background-color: #e4fde4;
+}
+.header_logo{
+  width:50px;
+}
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  .site-header{
+    background-color: white;
+  }
+  .header_logo{
+    width:100%;
+  }
+  .header_logo img{
+    width: 85%;
+  }
+}

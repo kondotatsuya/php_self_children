@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+#wrapper{
+	min-height:81vh;
+	margin: 0 auto;
+	width:100%;
+	padding-top:40px;
+}
+#edit_wrapper{
+	width: 70%;
+	padding-bottom: 30px;
+	margin:0 auto;
+	text-align: center;
+}
+.title{
+margin: 0 auto;
+}
+.img2{
+  width: 200px;
+  height: 200px;
+	margin:0 auto;
+}
+#contact_form{
+	width:70%;
+	margin:0 auto;
+	text-align: center;
+}
+
+#contact_form .input{
+	height:50px;
+	width:250px;
+	border: 2px solid green;
+	border-radius: 27px;
+	font-family: 'HelveticaNeue','Arial', sans-serif;
+	font-size: 100%;
+	letter-spacing: .8px;
+	text-align: center;
+}
+
+#update-button{
+	background-color: #fff; border:1px solid #55b1df; color:#55b1df;
+	cursor:pointer;
+  width: 115px;
+  height: 50px;
+  -moz-border-radius: 19px;
+  -webkit-border-radius: 19px;
+  border-radius: 19px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #63b560;
+  border:1px solid #55b1df;
+  border:none;
+  color: #fff;
+  font-weight: bold;
+	font-size: 18px;
+}
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+	#contact_form p{
+		font-size: 0.8em;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 414px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+	#edit_wrapper{
+		width: 80%;
+		padding-bottom: 30px;
+		margin:0 auto;
+		text-align: center;
+	}
+
+	.title{
+	margin: 0 auto;
+	width: 65%;
+	}
+
+	.img2{
+	  width: 52%;
+	  height: 15vh;
+		margin:0 auto;
+	}
+
+	#contact_form .input{
+		height:38px;
+		width:100%;
+		border: 2px solid green;
+		border-radius: 27px;
+		font-family: 'HelveticaNeue','Arial', sans-serif;
+		font-size: -1em;
+		letter-spacing: .8px;
+		text-align: center;
+	}
+
+	#update-button{
+		background-color: #fff; border:1px solid #55b1df; color:#55b1df;
+		cursor:pointer;
+	  width: 115px;
+	  height: 35px;
+	  -moz-border-radius: 19px;
+	  -webkit-border-radius: 19px;
+	  border-radius: 19px;
+	  -moz-background-clip: padding;
+	  -webkit-background-clip: padding-box;
+	  background-clip: padding-box;
+	  background-color: #63b560;
+	  border:1px solid #55b1df;
+	  border:none;
+	  color: #fff;
+	  font-weight: bold;
+		font-size: 18px;
+	}
+	#contact_form p{
+		font-size: 0.8em;
+		text-align: center;
+	}
+}

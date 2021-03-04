@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.footerFixed{
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+#footer{
+  background-color: #e4fde4;
+  position: absolute;
+  bottom:0px;
+  height: 30px;
+  width:100%;
+}
+#footer p{
+  text-align: center;
+}
+@media screen and (max-width:778px){
+  #footer{
+    background-color: white;
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    height: 25px;
+  }
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+#content1 ,#content2,#content3{
+	width: 800px;
+	margin: 50px auto 0 auto;
+	border: 3px solid green;
+	border-radius: 40px;
+	padding: 1.2em;
+	position: relative;
+}
+.user_img{
+	border:1px solid red;
+	position: absolute;
+	left: 120px;
+	width:18%;
+	height: 111px;
+	border-radius: 50%;
+}
+.title_name{
+	font-size:28px;
+	text-align: center;
+}
+.comment_count{
+	text-align: center;
+	padding: 10px 0;
+}
+.detail{
+	position: relative;
+}
+
+.poster{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.comment_poster{
+	padding:50px 0;
+	text-align: center;
+}
+.trouble{
+	margin:0 auto;
+	width:75%;
+	line-height: 1.85;
+}
+.detail p{
+	line-height: 1.85;
+}
+.user_comment{
+	border-bottom: 1px solid green;
+	margin: 0 auto 10px auto;
+	width: 75%;
+}
+.delete_wrap{
+	position: absolute;
+	right: 232px;
+	top: 80px;
+}
+.trouble_delete_wrap{
+	position: absolute;
+	right: 90px;
+	top: 104px;
+}
+.title_img{
+  margin:0 auto;
+}
+.form{
+  margin:0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.form_button{
+  width: 150px;
+  height: 40px;
+  border-radius: 19px;
+  background-clip: padding-box;
+  background-color: #63b560;
+  border:none;
+  color: #fff;
+  font-weight: bold;
+	font-size: 14px;
+}
+.textarea{
+  line-height: 1.2;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: 3px solid green;
+  width: 100%

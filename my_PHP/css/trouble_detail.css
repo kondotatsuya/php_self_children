@@ -1,0 +1,269 @@
+@charset "UTF-8";
+#content1 ,#content2,#content3{
+	width: 800px;
+	margin: 50px auto 0 auto;
+	border: 3px solid green;
+	border-radius: 40px;
+	padding: 1.2em;
+	position: relative;
+}
+.user_img{
+	border:1px solid green;
+	position: absolute;
+	left: 230px;
+	width:12%;
+	top: 75px;
+	height: 90px;
+	border-radius: 50%;
+}
+.title_name{
+	font-size:28px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.comment_count{
+	text-align: left;
+	font-size: 12px;
+	margin-left: 325px;
+}
+
+.detail{
+	position: relative;
+}
+
+.poster{
+	text-align: left;
+	font-size: 12px;
+	margin-left: 325px;
+
+	padding-bottom: 30px;
+}
+
+.create_time{
+	text-align: left;
+	font-size: 12px;
+	width: 65%;
+	margin-left:325px;
+}
+.comment_poster{
+	padding:50px 0;
+	text-align: center;
+}
+.trouble{
+	margin:0 auto;
+	padding-top: 20px;
+	width:75%;
+	line-height: 1.85;
+}
+.trouble_conte{
+	text-align: center;
+	font-size: 18px;
+	white-space: pre-wrap;
+
+}
+.detail p{
+	line-height: 1.85;
+}
+.user_comment{
+	border-bottom: 1px solid green;
+	margin: 0 auto 10px auto;
+	width: 75%;
+
+}
+.iine_wrap{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.title_img{
+  margin:0 auto;
+	width: 40%;
+}
+.title_img2{
+  margin:0 auto;
+	width: 70%;
+}
+.form{
+  margin:0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.form_button{
+  width: 150px;
+  height: 40px;
+  border-radius: 19px;
+  background-clip: padding-box;
+  background-color: #63b560;
+  border:none;
+  color: #fff;
+  font-weight: bold;
+	font-size: 14px;
+}
+.textarea{
+  line-height: 1.2;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: 3px solid green;
+  width: 100%
+}
+.user_name{
+	text-align: left;
+	font-size: 12px;
+	width: 65%;
+	margin:0 auto;
+
+}
+.comment{
+	text-align: center;
+	font-size: 16px;
+	width: 100%;
+	margin: 0 auto;
+	white-space: pre-wrap;
+
+}
+.create{
+	text-align: left;
+	font-size: 12px;
+	width: 65%;
+	margin:0 auto;
+}
+.img{
+	border:1px solid green;
+	position: absolute;
+	left: 33px;
+	width:9%;
+	height: 45px;
+	top: 0;
+	border-radius: 50%;
+}
+.favorite_b{
+	text-align: right;
+}
+.keep{
+	font-size: 14px;
+  width: 100px;
+  height: 30px;
+	border-radius: 20px;
+
+}
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	#content1,#content2,#content3{
+		width: 80%;
+		margin: 50px auto 0 auto;
+		border: 3px solid green;
+		border-radius: 40px;
+		padding: 1.2em;
+		position: relative;
+	}
+	.create_time, .comment_count, .poster{
+		margin-left: 50%;
+	}
+
+	.title_img{
+	  margin:0 auto;
+		width: 50%;
+	}
+	.user_img{
+		border:1px solid green;
+		position: absolute;
+		left: 175px;
+		width:15%;
+		top: 75px;
+		height: 90px;
+		border-radius: 50%;
+	}
+
+	.title_img2{
+	  margin:0 auto;
+		width: 80%;
+	}
+
+	.img{
+		border:1px solid green;
+		position: absolute;
+		left: 20px;
+		width:9%;
+		height: 45px;
+		top: 0;
+		border-radius: 50%;
+	}
+}
+@media screen and (max-width: 414px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	#content1,#content2,#content3{
+		width: 80%;
+		margin: 20px auto 0 auto;
+		border: 2px solid green;
+		border-radius: 40px;
+		padding: 0.8em;
+		position: relative;
+	}
+	.create_time, .comment_count, .poster{
+		margin-left: 50%;
+	}
+	.trouble{
+		padding-top: 0;
+	}
+	.user_img{
+		border:1px solid green;
+		position: absolute;
+		left: 25%;
+		width:17%;
+		top: 28%;
+		height: 23%;
+		border-radius: 50%;
+	}
+	.title_name{
+		font-size: 20px;
+		padding-bottom: 5px;
+	}
+	.create_time, .comment_count, .poster{
+		margin-left: 50%;
+		font-size: 8px;
+	}
+	.trouble_conte{
+		font-size: 13px;
+	}
+	.img{
+		border:1px solid green;
+		position: absolute;
+		left: 10%;
+		width:20%;
+		height: 28%;
+		top: 0;
+		border-radius: 50%;
+	}
+	.keep{
+		font-size: 8px;
+		width: 70px;
+		height:18px;
+	}
+
+	.user_name{
+		text-align: left;
+		font-size: 8px;
+		width: 65%;
+		margin:0 35%;
+
+	}
+	.comment{
+		text-align: center;
+		font-size: 10px;
+		width: 75%;
+		margin: 0 auto;
+	}
+	.create{
+		text-align: left;
+		font-size: 8px;
+		width: 65%;
+		margin:0 35%;
+	}
+
+	.title_img2{
+	  margin:0 auto;
+		width: 70%;
+	}
+	.form{
+		padding: 0px;
+	}
+}
