@@ -26,6 +26,6 @@ MAMP/MySQL/PHP
 
 データベース名:php_self
 
-phpMyAdminに上記のデータベースを作成していただき、php_self.sqlをインポートしてください。
+php_self_children-main内のmy_PHPフォルダをMAMP内のhtdocsへ入れてください
 
-MAMP内のhtdogsへ
+phpMyAdminに上記のデータベースを作成していただき、php_self.sqlをインポートしてください。
