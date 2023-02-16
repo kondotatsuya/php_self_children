@@ -132,6 +132,4 @@ class Board extends DB {
       return $count;
     }
 }
-//tes
-
 ?>
