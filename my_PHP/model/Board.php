@@ -3,7 +3,7 @@ require_once("DB.php");
 
 class Board extends DB {
 
-
+  // 掲示板へ投稿
   public function troubles_add($trouble,$troUser) {
     $sql = 'INSERT INTO troubles(title, body, user_id, created_at) VALUES(:title, :body, :user_id, :created_at);';
     $stmt = $this->connect->prepare($sql);
